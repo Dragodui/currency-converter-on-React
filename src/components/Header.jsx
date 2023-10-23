@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <header className="header">
             <div className="header__container">
-                <p>Exchange Rates</p>
+                <p>Currency converter</p>
             </div>
         </header>
     );
