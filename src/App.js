@@ -27,7 +27,7 @@ function App() {
     const [isInputSelected2, setIsInputSelected2] = useState(false);
 
     const [fetchCurrencies, loading, error] = useFetchCurrencies(async () => {
-        const response = await axios.get('http://www.floatrates.com/daily/usd.json');
+        const response = await axios.get('https://www.floatrates.com/daily/usd.json');
         setCurrencies(Object.values(response.data));
     });
 
