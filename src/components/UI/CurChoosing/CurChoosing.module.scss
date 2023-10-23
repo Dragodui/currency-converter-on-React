@@ -1,0 +1,21 @@
+.choosing {
+  display: flex;
+  width: 100%;
+}
+.langs {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+@media (max-width:530px) {
+  .langs {
+    flex-direction: column;
+  }
+}

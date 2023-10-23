@@ -1,0 +1,35 @@
+
+.loader {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 10px solid white;
+  border-bottom-color: rgba(0,0,0,0.2);
+  border-right-color: rgba(0,0,0,0.2);
+  border-left-color: rgba(0,0,0,0.2);
+  border-top-color: black;
+  animation: loaderAnimation 1s infinite linear;
+
+  &__container {
+    position:fixed;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    top:0px;
+    left:0px;
+    width:100vw;
+    height:100vh;
+  }
+}
+
+@keyframes loaderAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
