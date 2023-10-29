@@ -6,7 +6,7 @@ Simple currency converter on React
 Here you can see the demo of this project: <br/>
 https://dragodui.github.io/currency-converter-on-React/
 
-https://mini.s-shot.ru/1920x1200/JPEG/1920/Z160/?https%3A%2F%2Fdragodui.github.io%2Fcurrency-converter-on-React%2F
+<img src="https://mini.s-shot.ru/1920x1200/JPEG/1920/Z160/?https%3A%2F%2Fdragodui.github.io%2Fcurrency-converter-on-React%2F"/>
 
 ## Technologies
 
