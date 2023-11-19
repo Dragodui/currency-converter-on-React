@@ -17,5 +17,16 @@
 @media (max-width:530px) {
   .langs {
     flex-direction: column;
+    align-items: center;
+    & select {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+  .buttons {
+    width: 100%;
+    & button {
+      width: 100%;
+    }
   }
 }
